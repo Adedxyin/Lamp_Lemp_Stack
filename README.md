@@ -6,6 +6,6 @@ This project provides **automated scripts** to set up **LAMP (Apache, MySQL, PHP
 ## 📌 Steps to Execute
 1. **Launch an EC2 instance (Ubuntu)**
 2. **Run the install scripts**:
-   - LAMP: `bash scripts/install_lamp.sh`
-   - LEMP: `bash scripts/install_lemp.sh`
+   - LAMP: `bash /install_lamp.sh`
+   - LEMP: `bash /install_lemp.sh`
 3. **Test the setup:** Open `http://<ec2-public-ip>/info.php`
